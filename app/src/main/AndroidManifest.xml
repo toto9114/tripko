@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="kr.co.plani.fitlab.tripko">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Login.SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DetailRouteActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar" />
+        <activity
+            android:name=".Search.SearchResultActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar" />
+        <activity
+            android:name=".Plan.AddPlanActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar" />
+        <activity
+            android:name=".Plan.AddAttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar" />
+        <activity
+            android:name=".DetailAttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar" />
+        <activity
+            android:name=".Settings.OpenSourceLicenseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4ba9f0a20fe2f6f0d6ca93818937d3978bdf3458"
+            tools:replace="android:value"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC1qPjGRZXfoJ18i0w3URsr1g-C5AjVpVY"/>
+        <service
+            android:name=".FCM.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".FCM.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/app_icon" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <activity
+            android:name=".Tutorial.TutorialActivity"
+            android:theme="@style/Theme.Transparent"></activity>
+    </application>
+
+</manifest>

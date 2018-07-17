@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TripKo</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Login</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure to logout?</string>
+    <string name="alert_delete_message">Are you sure to delete this trip?</string>
+    <string name="add_attraction_title">Add destination</string>
+    <string name="curation_title">%1$speople selected the next destination</string>
+    <string name="my_record_title">Keeping %1$d travel history</string>
+
+    <string name="search_result_message">Do not like the search results?\nPlease register your travel route now\nand give your good travel route to friends! :)</string>
+    <string name="make_record_btn">Create route</string>
+    <string name="record_visit_count"><![CDATA[Visiting <b><font color=#fec804> %1$d</b>places]]></string>
+
+    <string name="alert_not_found_attractions">Can not search this destination.</string>
+
+    <string name="alert_copy_record_title">Copy this route</string>
+    <string name="alert_copy_record_message">Are you sure to copy this travel route selected by %1$dpeople?</string>
+
+    <string name="alert_incorrect_login_info">Incorrect login information.</string>
+    <string name="total_time_prefix">Move in route %1$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_introduce">We plan your spontaneous trips!\nTripKo make travel.</string>
+    <string name="planing_hint">Enter some destination :)</string>
+    <string name="planing_title">Plan</string>
+    <string name="recommend_attraction_title">Recommendation</string>
+    <string name="travel_record_title">Travel record</string>
+    <string name="setting_title">Setting</string>
+    <string name="famous_route_title">Popular route</string>
+
+    <string name="choose_count_info">%1$dpeople like this route</string>
+
+    <string name="back_pressed_message">Press the Back button again to exit.</string>
+    <string name="curation_hint">Recommend : %1$s</string>
+    <string name="save_route_success">Saved.</string>
+
+    <string name="opensource_menu">Opensource License</string>
+    <string name="version_name">Version    %1$s</string>
+
+    <string name="login_title">Login</string>
+    <string name="login_alert_message">This function requires login.</string>
+
+    <string name="alert_cancel">Cancel</string>
+    <string name="search_attraction">Find destination</string>
+    <string name="curation_share_content">Korea travel destination that "\"TripKo"\" recommended</string>
+    <string name="route_fix_alert_title">Modify Destination</string>
+
+    <string name="alert_save">Save</string>
+    <string name="alert_network_error_title">Network Error</string>
+    <string name="alert_network_error_message">Please check your network and try again</string>
+
+    <string name="alert_ok">OK</string>
+    <string name="alert_not_found_title">Sorry</string>
+    <string name="alert_not_found_message">We can\'t found your destination. AI will learn destination ASAP</string>
+
+    <string name="plan_route_view_title">Travel Route</string>
+    <string name="button_share">Share</string>
+
+    <string name="update_notify_title">TripKo Update</string>
+    <string name="update_notify_message">A new TripKo update is now available. Please update now :)</string>
+    <string name="select_all">Select all</string>
+    <string name="delete_btn">Delete</string>
+
+    <string name="add_plan_btn">+ Add destination</string>
+    <string name="add_plan_message">Plan your trips or record your travel.\nYou can also record your memories and share your trips with your friends :)</string>
+    <string name="add_attraction_hint">Please enter your favorite destination :)</string>
+    <string name="search_result_title"> Search results</string>
+    <string name="detail_attraction_title">Details</string>
+    <string name="hour">hr</string>
+    <string name="minute">min</string>
+    <string name="second">sec</string>
+    <string name="locale_date_format">yyyy-MM-dd</string>
+
+    <string name="ai_message_training">TripKo가 경로를 학습중입니다</string>
+    <string name="ai_message_curation">TripKo가 여행지를 추천중입니다</string>
+
+    <string name="touch_guide_ai_tripko"></string>
+</resources>

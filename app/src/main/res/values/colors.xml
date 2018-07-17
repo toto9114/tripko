@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#354052</color>
+    <color name="colorPrimaryDark">#1d2332</color>
+    <color name="colorAccent">#fec804</color>
+    <color name="softYellow">#fec804</color>
+    <color name="select_tab">#fc403f</color>
+    <color name="unselect_tab">#354052</color>
+    <!--<color name="unselect_tab">#5a5a5b</color>-->
+
+    <color name="red">#d8ff0000</color>
+    <color name="gray">#B1BEC6</color>
+    <color name="white">#d8ffffff</color>
+    <color name="black">#d8000000</color>
+    <color name="mouseGray">#B1BEC6</color>
+
+    <color name="image_opacity">#5c000000</color>
+
+    <color name="dimming_background">#2d2d2d</color>
+    <color name="dim_color">#bb000000</color>
+</resources>

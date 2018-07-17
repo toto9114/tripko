@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TripKo</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_up">注册</string>
+    <string name="sign_in">登入</string>
+    <string name="logout_title">登出</string>
+    <string name="logout_message">你想退出？</string>
+    <string name="alert_delete_message">您确定删除此行吗？</string>
+    <string name="add_attraction_title">添加目的地</string>
+    <string name="curation_title">%1$s人选择了下一个目的地</string>
+    <string name="my_record_title">保持%1$s个旅行记录</string>
+
+    <string name="search_result_message">不喜欢的搜索结果？\n请现在就注册您的出行路线，并给你的朋友好出行路线！:)</string>
+    <string name="make_record_btn">创建路径</string>
+    <string name="record_visit_count"><![CDATA[参观的<b><font color=#fec804> %1$d</b>个地方]]></string>
+
+    <string name="alert_not_found_attractions">无法搜索此目标</string>
+
+    <string name="alert_copy_record_title">复制此路线</string>
+    <string name="alert_copy_record_message">你确定复制%1$d人选择的这条旅行路线吗？</string>
+
+    <string name="alert_incorrect_login_info">登录信息不正确</string>
+    <string name="total_time_prefix">在道路中%1$s个转到</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="main_introduce">性冲动的旅游也有计划!\nTripKo给您旅行.</string>
+    <string name="planing_hint">请输入旅行地 :)</string>
+    <string name="planing_title">计划</string>
+    <string name="recommend_attraction_title">推荐</string>
+    <string name="travel_record_title">旅行记录</string>
+    <string name="setting_title">设置</string>
+    <string name="famous_route_title">推荐途径</string>
+
+    <string name="choose_count_info">%1$d名喜欢的路径</string>
+
+    <string name="back_pressed_message">再按一下关闭后退按钮。</string>
+    <string name="curation_hint">建议 : %1$s</string>
+    <string name="save_route_success">保存成功!</string>
+
+    <string name="opensource_menu">开源许可证</string>
+    <string name="version_name">版本    %1$s</string>
+
+    <string name="login_title">登录</string>
+    <string name="login_alert_message">需要登录的功能.</string>
+
+    <string name="alert_cancel">取消</string>
+    <string name="search_attraction">搜寻旅行地</string>
+    <string name="curation_share_content">"\"TripKo"\"推荐的韩国旅游景点</string>
+    <string name="route_fix_alert_title">旅行地修整</string>
+
+    <string name="alert_save">保存</string>
+    <string name="alert_network_error_title">网络错误</string>
+    <string name="alert_network_error_message">请检查您的网络,然后再试一次。</string>
+
+    <string name="alert_ok">确认</string>
+    <string name="alert_not_found_title">不好意思</string>
+    <string name="alert_not_found_message">不能找到你的旅行地。AI要尽快学习旅行地</string>
+
+    <string name="plan_route_view_title">旅行途径</string>
+    <string name="button_share">分享</string>
+
+    <string name="update_notify_title">TripKo 更新</string>
+    <string name="update_notify_message">新的更新了! 请现在更新:)</string>
+    <string name="select_all">选择所有</string>
+    <string name="delete_btn">删除</string>
+
+    <string name="add_plan_btn">将旅行地</string>
+    <string name="add_plan_message">尝试计划前往或离开记录之旅。同时记录您的回忆，分享你的旅行路线给你的朋友:)</string>
+    <string name="add_attraction_hint">输入所需的目的地:)</string>
+
+    <string name="detail_attraction_title">旅行详细</string>
+    <string name="search_result_title"> 搜索结果</string>
+    <string name="hour">时间</string>
+    <string name="minute">分钟</string>
+    <string name="second">第二</string>
+    <string name="locale_date_format">yyyy-MM-dd</string>
+
+    <string name="ai_message_training">TripKo가 경로를 학습중입니다</string>
+    <string name="ai_message_curation">TripKo가 여행지를 추천중입니다</string>
+</resources>

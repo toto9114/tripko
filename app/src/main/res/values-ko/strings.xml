@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">TripKo</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_up">회원가입</string>
+    <string name="sign_in">로그인</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_introduce">즉흥적인 여행도 계획적으로!\nTripKo가 여행을 만들어드립니다.</string>
+    <string name="planing_hint">여행지를 입력해주세요 :)</string>
+    <string name="planing_title">여행 계획하기</string>
+    <string name="recommend_attraction_title">추천 여행지</string>
+    <string name="travel_record_title">여행기록</string>
+    <string name="setting_title">설정</string>
+    <string name="famous_route_title">추천 여행경로</string>
+
+    <string name="choose_count_info"><![CDATA[<b><font color=#fec804>%1$d</b>명이 선택한 경로]]></string>
+
+    <string name="back_pressed_message">뒤로 버튼 한번 더 누르시면 종료됩니다.</string>
+    <string name="curation_hint">추천 : %1$s</string>
+    <string name="save_route_success">저장되었습니다.</string>
+
+    <string name="opensource_menu">오픈소스 라이선스</string>
+    <string name="version_name">버전    %1$s</string>
+
+    <string name="login_title">로그인</string>
+    <string name="login_alert_message">로그인이 필요한 기능입니다.</string>
+
+    <string name="logout_title">로그아웃</string>
+    <string name="logout_message">로그아웃 하시겠어요?</string>
+
+    <string name="alert_cancel">취소</string>
+    <string name="search_attraction">여행지 검색</string>
+    <string name="curation_share_content">"\"TripKo"\"가 추천하는 한국 여행지</string>
+    <string name="route_fix_alert_title">여행지 수정</string>
+
+    <string name="alert_save">저장</string>
+    <string name="alert_network_error_title">네트워크 오류</string>
+    <string name="alert_network_error_message">네트워크 상태를 체크하고 다시 시도해주세요.</string>
+
+    <string name="alert_ok">확인</string>
+    <string name="alert_not_found_title">죄송합니다</string>
+    <string name="alert_not_found_message">입력하신 여행지를 찾지 못하였습니다. 최대한 빠른 시간 안에 인공지능에게 학습시키겠습니다.</string>
+
+    <string name="plan_route_view_title">경로보기</string>
+    <string name="button_share">공유</string>
+
+    <string name="update_notify_title">TripKo 업데이트</string>
+    <string name="update_notify_message">새로운 업데이트가 출시되었어요! 지금 업데이트해주세요:)</string>
+    <string name="select_all">전체 선택</string>
+    <string name="delete_btn">삭제</string>
+    <string name="alert_delete_message">여행경로를 삭제하시겠습니까?</string>
+
+    <string name="add_plan_btn">+ 여행지 추가하기</string>
+    <string name="add_attraction_title">여행지 추가하기</string>
+    <string name="curation_title">%1$s명이 선택한 다음 여행지</string>
+    <string name="my_record_title">총 %1$d개의 여행기록 보관 중</string>
+    <string name="add_plan_message">여행을 계획하거나 여행기록을 남겨보세요.\n추억을 기록하고 여행 경로를 지인들에게\n공유할 수도 있어요 :)</string>
+    <string name="add_attraction_hint">원하는 여행지를 입력하세요 :)</string>
+
+    <string name="search_result_message">검색 결과가 마음에 들지 않으세요?\n지금 여행 경로를 등록하고 지인에게\n좋은 여행 경로를 소개해주세요! :)</string>
+    <string name="make_record_btn">경로 생성하기</string>
+    <string name="record_visit_count"><![CDATA[<b><font color=#fec804> %1$d</b>곳의 여행지 방문]]></string>
+
+    <string name="alert_not_found_attractions">검색할 수 없는 여행지입니다.</string>
+
+    <string name="alert_copy_record_title">여행경로 복사</string>
+    <string name="alert_copy_record_message">%1$d명이 선택한 여행경로를\n복사 하시겠습니까?</string>
+
+    <string name="alert_incorrect_login_info">로그인 정보가 올바르지 않습니다.</string>
+    <string name="total_time_prefix">경로 내 이동 %1$s</string>
+
+    <string name="detail_attraction_title">여행지 상세보기</string>
+    <string name="search_result_title"> 검색 결과</string>
+    <string name="hour">시간</string>
+    <string name="minute">분</string>
+    <string name="second">초</string>
+    <string name="locale_date_format">yyyy년 MM월 dd일</string>
+    <string name="ai_message_training">TripKo가 경로를 학습중입니다</string>
+    <string name="ai_message_curation">TripKo가 여행지를 추천중입니다</string>
+</resources>

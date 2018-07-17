@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "1055998887694",
+    "firebase_url": "https://tripko-fitlab.firebaseio.com",
+    "project_id": "tripko-fitlab",
+    "storage_bucket": "tripko-fitlab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055998887694:android:7751a4b43522cc15",
+        "android_client_info": {
+          "package_name": "kr.co.plani.fitlab.tripko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055998887694-56jja25osug5e7ak04obe3eldc89lnec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.co.plani.fitlab.tripko",
+            "certificate_hash": "c9051e82c53f57a1c779a6680d47d2730d512cd2"
+          }
+        },
+        {
+          "client_id": "1055998887694-ne3iscdn1ntq3e4pma6ol2tgtb512oa2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1055998887694-fmgh91uv4s12mo1e2i9m3poph2oe1c3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAveVwl9Jv52BH-bMAn-zk1Vw0TO2Rpm5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055998887694-ltf4shf51dc4h7u7mkr1coastfhcp8in.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kr.co.plani.travelmaker"
+              }
+            },
+            {
+              "client_id": "1055998887694-ne3iscdn1ntq3e4pma6ol2tgtb512oa2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

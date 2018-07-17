@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_attraction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.co.plani.fitlab.tripko.Plan.AddAttractionActivity">
+
+    <kr.co.plani.fitlab.tripko.Toolbar.CustomToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"></kr.co.plani.fitlab.tripko.Toolbar.CustomToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/white_bg_edit_text"
+            android:hint="@string/add_attraction_hint"
+            android:textSize="12sp" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+</RelativeLayout>
